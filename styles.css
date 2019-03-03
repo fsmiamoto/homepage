@@ -37,7 +37,7 @@ table {
 
 td {
     padding: 15px;
-    width: 150px;
+    width: 200px;
     text-align: center;
 }
 
@@ -47,5 +47,5 @@ td a {
 }
 
 td a:hover {
-    color: darkslategray;
+    color: var(--color2);
 }
