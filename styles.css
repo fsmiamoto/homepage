@@ -1,0 +1,51 @@
+@import url("/home/shigueo/.cache/wal/colors.css");
+
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+    display: flex;
+    margin: auto;
+    padding: 0;
+    flex-direction: column;
+    width: 70vw;
+}
+header {
+    order: 1;
+    width: 100%;
+    margin: auto;
+}
+
+.jp {
+    font-family: "Hannari";
+    text-align: center;
+}
+
+h1.jp {
+    font-size: 84px;
+}
+
+h2.jp {
+    font-size: 48px;
+}
+
+table {
+    order: 2;
+    margin: auto;
+    font-size: 32px;
+    font-family: "Montserrat", sans-serif;
+}
+
+td {
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+}
+
+td a {
+    color: var(--foreground);
+    text-decoration: none;
+}
+
+td a:hover {
+    color: darkslategray;
+}
